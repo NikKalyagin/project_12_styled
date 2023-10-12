@@ -9,3 +9,16 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+body {
+  background-image: 
+    linear-gradient(45deg, #FFD5A6 25%, transparent 25%),
+    linear-gradient(135deg, #FFD5A6 25%, transparent 25%),
+    linear-gradient(-45deg, #FFD5A6 25%, transparent 25%),
+    linear-gradient(-135deg, #FFD5A6 25%, transparent 25%);
+
+  background-size: 2rem 2rem;
+  background-position: 0 0, 0 0, 1rem 1rem, -1rem -1rem;
+  background-color: #FFBB86;
+  background-blend-mode: multiply;
+}
